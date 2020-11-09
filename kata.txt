@@ -1,0 +1,27 @@
+Refactored Greeting
+
+The following code could use a bit of object-oriented artistry.
+While it's a simple method and works just fine as it is,
+in a larger system it's best to organize methods into classes/objects.
+(Or, at least, something similar depending on your language)
+
+Refactor the following code so that it belongs to a Person class/object. Each
+Person instance will have a greet method. The Person instance should be
+instantiated with a name so that it no longer has to be passed
+into each greet method call
+
+def greet(my_name, your_name):
+    return "Hello %s, my name is %s" % (your_name, my_name)
+
+---
+
+Image host filename generator
+
+You are developing an image hosting website.
+You have to create a function for generating random and unique image filenames.
+Create a function for generating a random 6 character string which will be used to access the photo URL.
+To make sure the name is not already in use, you are given access to an PhotoManager object.
+You can call it like so to make sure the name is unique
+
+---
+
